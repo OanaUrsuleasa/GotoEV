@@ -40,8 +40,8 @@ footer{
 #block-gotoev-page-title{
     padding: 5px;
     position: relative;
-    text-align: center;
-    font-size:20px;
+    text-align: left;
+    font-size:1em !important;
     text-decoration: none;
     color: #fff;
 }
@@ -90,9 +90,9 @@ ul{
     border-radius: 25px;
 }
 
-#edit-submit{
+/* #edit-submit{
     display:none;
-}
+} */
 #edit-keys{
     max-width: 100%;
     width: 100%;
