@@ -2,14 +2,23 @@ name: GotoEV
 type: theme
 base theme: false
 description: 'A GotoEV custom theme'
-pakage: custom
-version: '1.0.0'
+pakage: Custom
+version: 1.0.0
 core_version_requirement: ^8 || ^10
 
 libraries:
-  - gotoev/gloval-styling
+  - 'gotoev/global-styling'
 
 regions:
-  header: Header
-  content: Content
-  footer: Footer
+  header: 'Header'
+  header_menu: 'Menu'
+  navbar_branding: 'Branding'
+  header_title: 'Title'
+  navbar_social: 'Social'
+  header_search: 'Search'
+  header_tabs: 'Tabs'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  bottom: 'Bottom'
+  footer: 'Footer'
